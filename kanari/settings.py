@@ -128,6 +128,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'principal',
     'perfil',
+    'impresoras',
 )
 
 # A sample logging configuration. The only tangible logging

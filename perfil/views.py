@@ -9,5 +9,5 @@ def lista_usuarios(request):
 	return render_to_response('lista_usuarios.html',ctx)
 def lista_bitacora(request):
 	bitacora = Bitacora.objects.all()
-	ctx= {'lista': bitacora}
+	ctx= {'registro': bitacora}
 	return render_to_response('lista_usuarios.html',ctx)
